@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+  <title>Jungle Rush 3D</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="hud">
+    <h2>JUNGLE RUSH 3D</h2>
+    <div>Score: <span id="score">0</span></div>
+    <div>Coins: <span id="coins">0</span></div>
+  </div>
+
+  <div id="menu">
+    <h1>JUNGLE RUSH</h1>
+    <p>Swipe to move, jump and slide!</p>
+    <button id="start">START GAME</button>
+  </div>
+
+  <div id="gameover" class="hidden">
+    <h1>GAME OVER</h1>
+    <p>Your score: <span id="finalScore">0</span></p>
+    <button id="restart">PLAY AGAIN</button>
+  </div>
+
+  <div id="controls">
+    <button id="left">◀</button>
+    <button id="jump">▲</button>
+    <button id="slide">▼</button>
+    <button id="right">▶</button>
+  </div>
+
+  <script type="module" src="game.js"></script>
+</body>
+</html>
